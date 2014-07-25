@@ -1,0 +1,48 @@
+.pgcontrols {
+background:rgb(220,220,220);
+height:25px;
+width:20px;
+border:solid 1px grey;
+margin-left:1px;
+}
+
+.pgnumbers {
+font-size:12px;
+padding:3px;
+height:20px;
+}
+
+.pgnumbers:hover {
+background:white;
+border:solid 2px rgb(35,85,165);
+height:30px;
+width:25px;
+}
+
+.pgselected {
+background:white;
+border:solid 2px rgb(35,85,165);
+height:30px;
+width:25px;
+}
+
+.back {
+margin:2px;
+background-image:url(files/leftarrow.png);
+background-position:center;
+background-size:50% 50%;
+background-repeat:no-repeat;
+}
+
+.forward {
+margin:2px;
+background-image:url(files/rightarrow.png);
+background-position:center;
+background-size:50% 50%;
+background-repeat:no-repeat;
+}
+
+#pagination_controls td {
+padding:0px;
+vertical-align:middle;
+}
